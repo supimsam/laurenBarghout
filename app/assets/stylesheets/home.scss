@@ -1,0 +1,202 @@
+body {
+
+	background-color: #062D72;
+	font-family: sans-serif;
+	
+
+}
+
+h1 a {
+	color: #B0BDD6;
+	font-size: 36px;
+	padding: 1em;
+	margin: .5em;
+	text-decoration: none;
+}
+
+nav a {
+	float: right;
+	padding: 1em;
+	margin: .5em;
+	margin-right: 2em;
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #B0BDD6;
+}
+
+nav a:hover {
+	font-weight: 900;
+	color: black;
+}
+
+/*index page/home page*/
+
+.container { 
+ 
+  	padding: 2em;
+	margin: 1em;
+	
+}
+
+
+.main {
+	padding: 2em;
+	margin: 1em;
+	margin-top: 50px;
+	height: 400px;
+	width: 80%;
+	// width: 900px;
+	border-style: solid;
+    border-color: #020C1F;
+	border-radius: 5px;
+	background-color: white;
+	background-image: image-url('lauren-1.jpg');
+	background-repeat:no-repeat;
+
+
+}
+.main h1 {
+
+color:  #0066FF;
+margin-left: 250px;
+
+}
+
+.main p {
+	font-size: 16px;
+	font-weight: 300;
+	margin-left: 250px;
+	padding: 1em;
+	
+
+}
+
+.recent {
+	
+	
+	border-radius: 5px;
+	background-color: #B0BDD6; 
+	border-style: solid;
+    border-color: #020C1F;
+	width: 30%;
+	height: 400px;
+	padding: 2em;
+	margin: 1em;
+	margin-top: 50px;
+	
+}
+
+
+
+
+.recent h3 {
+	color: #020C1F;
+	font-size: 20px;
+
+}
+
+.recent h4 {
+	color: #020C1F;
+	font-size: 12px;
+	font-weight: 200px;
+
+}	
+
+.recent a:hover {
+	color: black ;
+}
+
+.box {
+	padding: 2em;
+	margin: 1em; 
+	border-radius: 5px;
+	background-color: white;  
+	width: 90%;
+}
+
+
+.boxes {
+  display: -webkit-box;  
+  display: -moz-flexbox;  
+  display: -ms-flexbox; 
+  display: -webkit-flex; 
+  display: -moz-flex;     
+  display: flex;         
+}
+
+.boxes.zero {
+  -webkit-box-align: stretch; 
+  -moz-box-align: stretch; 
+  -ms-flex-align: stretch;
+  -webkit-align-items: stretch;
+  -moz-align-items: stretch;
+  align-items: stretch;	
+}
+
+
+// .footer {
+	
+// 	background-color: white;
+// 	padding: 1rem;
+// 	text-align: center;
+
+
+// }
+
+*,
+*:before,
+*:after {
+  /* padding is now part of the height & width */
+  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.publication {
+	padding: 2em;
+	margin: 1em;
+	margin-top: 50px;
+	width: 100%;
+	border-radius: 5px;
+	background-color: white;
+
+	border-style: solid;
+    border-color: #020C1F;
+
+
+
+}
+.publication h1 {
+
+color: #062D72;
+
+
+}
+
+.publication p {
+	font-size: 16px;
+	font-weight: 300;
+	
+	
+
+}
+
+
+
+footer {
+  position: absolute;
+
+  right: 0px;
+  left: 0px;
+  padding: 15px;
+  height: 150px;
+  background-color: #020C1F;
+  color: #B0BDD6;
+}
+
+
+
+
+
